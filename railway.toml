@@ -6,7 +6,7 @@ buildCommand = "npm run build"
 startCommand = "npm run start"
 healthcheckPath = "/"
 healthcheckTimeout = 100
-restartPolicyType = "on-failure"
+restartPolicy = "on-failure"  # Changed from restartPolicyType to restartPolicy
 
 [nixpacks]
 nodejs_version = "18"
